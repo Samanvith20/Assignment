@@ -129,4 +129,65 @@
   padding: 5px; 
 }
 
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px; 
+  }
+
+  .item.title img {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  .award-logos-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .award-logo1,
+  .award-logo2 {
+    margin: 10px 0; 
+  }
+
+  .award-logos-container .content p {
+    font-size: 12px; 
+    margin-top: 5px;
+  }
+
+  .award-logos-container .content h1 {
+    font-size: 24px; 
+    margin-top: 10px;
+  }
+
+  .item.details p {
+    font-size: 20px; 
+    margin-bottom: 10px;
+  }
+
+  .logo3 hr {
+    width: 100%;
+    margin: 10px 0; 
+  }
+
+  .item.social h1 {
+    font-size: 28px;
+  }
+
+  .item.social p {
+    font-size: 24px; 
+  }
+
+  .item.footer ul {
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+
+  .item.footer ul li {
+    flex: 0 0 100%; 
+    margin-bottom: 10px; 
+  }
+}
+
+
 
